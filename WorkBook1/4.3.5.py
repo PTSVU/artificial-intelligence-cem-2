@@ -27,4 +27,3 @@ print("Список операций:" , "\n", "1. +", "\n", "2. -", "\n", "3. *
 print("Выберите действие: ", end = "")
 operation = int(input())
 print("Результат операции: ", calc(x,y,operation))
-#%%
