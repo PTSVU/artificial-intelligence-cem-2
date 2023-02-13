@@ -50,4 +50,3 @@ def calc(x,y,operation):
         return x**y
     else:
         print("Выберите число из диапазона!")
-#%%
