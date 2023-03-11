@@ -1,5 +1,4 @@
 import numpy as np
-import math
 import matplotlib.pyplot as plt
 
 apple_cost = [131.96, 121.26, 122.15, 131.46, 124.61, 136.96, 145.86, 151.83, 141.50, 149.80, 165.30, 177.57]
@@ -30,23 +29,4 @@ plt.show()
 print("Стоимость акций Apple с начала с 1 января 2021 года по 31 декабря 2021 года выросла на", round(apple_cost[11]/(apple_cost[0]/100)-100,2),"%")
 print("Стоимость акций Microsoft с начала с 1 января 2021 года по 31 декабря 2021 года выросла на", round(microsoft_cost[11]/(microsoft_cost[0]/100)-100,2),"%")
 print("Стоимость акций Google с начала с 1 января 2021 года по 31 декабря 2021 года выросла на", round(google_cost[11]/(google_cost[0]/100)-100,2),"%")
-
-def calc(x,y,operation):
-    if operation == 1:
-        return x+y
-    elif operation == 2:
-        return x-y
-    elif operation == 3:
-        return x*y
-    elif operation == 4:
-        return x/y
-    elif operation == 5:
-        return math.e**(x+y)
-    elif operation == 6:
-        return math.sin(x+y)
-    elif operation == 7:
-        return math.cos(x+y)
-    elif operation == 8:
-        return x**y
-    else:
-        print("Выберите число из диапазона!")
+#%%

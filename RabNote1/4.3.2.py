@@ -17,3 +17,4 @@ for j in range(0, 5):
 plt.plot(A1)
 plt.show()
 plt.scatter(x, y)
+#%%
